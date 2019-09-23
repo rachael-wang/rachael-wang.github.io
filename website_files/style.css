@@ -1,0 +1,63 @@
+body {
+	margin:0; 
+	font-weight: 300;
+    font-family: 'Helvetica Neue', 'Source Sans Pro', 'Open Sans',Helvetica,Arial,sans-serif;
+    font-size: 15px;}
+
+#container {width:1290px; margin:0 auto;}
+
+#header {height:50px;}
+#logo {float:left;  font-size:28px; font-weight:thin; 
+	margin:5px 100px 8px 0; 
+	font-family: "Oswald", Helvetica, Arial, sans-serif;}
+#logo a {display:block; color:#000000; text-decoration:none;}
+
+#main {background:url(images/main_bg.png) repeat-y; font-size:13px; line-height:17px; color:#333333; float:left; width:100%;}
+#main br {line-height:10px;}
+#text {margin:30px 285px 30px 45px;}
+#text h1 {
+	font-size:28px; 
+	font-weight:300; 
+	margin:24px 0 8px 0; 
+	color:#306DA8;
+	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;}
+#text h2 {
+	font-size:24px; 
+	font-weight:300; 
+	margin:24px 0 8px 0; 
+	color:#306DA8;
+	font-family: "Oswald", Helvetica, Arial, sans-serif;}
+#text h3 {
+	font-size:20px;
+	font-weight:300; 
+	margin:4px 0 4px 0; 
+	color:#306DA8;
+	font-family: 'Helvetica Neue', 'Source Sans Pro', 'Open Sans',Helvetica,Arial,sans-serif;}
+#text h4 {
+	font-size:16px;
+	font-weight:400; 
+	margin:0 0 0 0; 
+	font-family: 'Helvetica Neue', 'Source Sans Pro', 'Open Sans',Helvetica,Arial,sans-serif;}
+#text li {
+	font-size:15px;
+	font-family: 'Helvetica Neue', 'Source Sans Pro', 'Open Sans',Helvetica,Arial,sans-serif;
+	margin-left:40px;}
+#text p {
+	font-size:15px;word-wrap:break-word;
+	font-family: 'Helvetica Neue', 'Source Sans Pro', 'Open Sans',Helvetica,Arial,sans-serif;}
+	
+#text ol, #text ul {padding:0; margin:10px 0;}
+#sidebar {width:250px; float:right; margin:6px 45px 30px 30px; display:inline;}
+#sidebar ul {margin:0px; padding:0px;}
+#sidebar li {list-style:none; padding:1px 0 1px 12px; background:url(images/li.png) 0px 8px no-repeat;}
+#sidebar sidep {
+	font-size:24px;word-wrap:break-word;
+	font-family: 'Helvetica Neue', 'Source Sans Pro', 'Open Sans',Helvetica,Arial,sans-serif;}
+
+#footer {color:#000000; text-align:right; font-size:16px; margin:2px 0 15px 0;}
+#footer a {color:#D8E7F4;}
+#footer a:hover {color:#B0CEEA;}
+
+.mydiv { width:1200px; height: 270px;}
+.myimage {float:left; width:400px; height:224px; margin-right:20px;}
