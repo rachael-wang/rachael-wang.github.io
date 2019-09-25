@@ -142,11 +142,9 @@ __        __   _
 
             <p class="lead">My research interests are Computer Graphics, Geometry Processing and Physics-based Simulation. 
             Here is my <a target="_blank" href="./Files/CV_SIQI.pdf">CV</a> 
-            and my <a href="https://scholar.google.com/citations?user=mC4US5IAAAAJ">Google Scholar profile</a>.</p>
+            and <a href="https://scholar.google.com/citations?user=mC4US5IAAAAJ">Google Scholar profile</a>.</p>
         </div>
         <!--<h1 class="text-hide"><a id="about">Custom heading</a></h1>-->
-
-        
 
 
         <hr size="2" color="#800000">
@@ -165,24 +163,6 @@ __        __   _
             </dl>
         </div>
 
-        <hr size="2" color="#800000">
-        <h2><b><a id="projects">Research Highlights</a></b></h2>
-        <dl class="dl-horizontal">
-            <dt>Policy Conflicts<br> in Multi-Carrier<br> Cellular Access</dt>
-            <dd>
-                <p>We study policy conflicts between inter-carrier switching and intra-carrier handoff in multi-carrier cellular access system. We proved theoretical results on resolving such conflicts, proposed practical guidelines, and validated our findings using Google Project Fi [MobiCom '18].</p>
-            </dd>
-
-            <dt>DPCM</dt>
-            <dd>
-                <p><a target="_blank" href="http://metro.cs.ucla.edu/dpcm.html">DPCM</a> [MobiCom '17] is a new design at 4G/5G control-plane reducing data access latency, by parallel processing approaches and exploiting device-side state replica.</p>
-            </dd>
-
-            <dt>MobileInsight</dt>
-            <dd>
-                <p><a target="_blank" href="http://mobileinsight.net/">MobileInsight</a> [MobiCom '16] is a cross-platform software package for cellular network monitoring and analysis on end device.</p>
-            </dd>
-        </dl>
 
         <hr size="1" color="#800000">
         <h2><b><a id="publications">Publications</a></b></h2>
@@ -197,502 +177,46 @@ __        __   _
                 <tbody>
                 <tr>
                     <td>
-                        <span class="label label-primary">C12</span>
-                    </td>
-                    <td>
-                        <h4 class="list-group-item-heading">
-                            Resolving Policy Conflicts in Multi-Carrier Cellular Access
-                            <span class="badge"><a class="conf" target="_blank" href="https://sigmobile.org/mobicom/2018/">MobiCom '18</a></span>
-                        </h4>
-                        <p class="author">
-                            <strong>Zengwen Yuan</strong>, Qianru Li, Yuanjie Li, Songwu Lu, Chunyi Peng, George Varghese<br>
-                            Proceedings of the 24th Annual International Conference on Mobile Computing and Networking (MobiCom '18), acceptance rate: 42/187 = 22.4%<br>
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#mobicom18-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#mobicom18-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/papers/mobicom18-yuan-multicarrier-authorversion.pdf">PDF (author's version)</a></button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://metro.cs.ucla.edu/papers/mobicom18-multicarrier-proof.pdf">Supplementary Proof</a></button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="https://dl.acm.org/citation.cfm?id=3241558">PDF (ACM DL)</a></button>
-                        <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/slides/mobicom18-yuan-slides.pdf">Slides</a></button>
-                        <button type="button" class="btn btn-warning btn-xs"><a class="conf" target="_blank" href="https://www.youtube.com/watch?v=aH741eAXxSU">Video</a></button>
-                        <button type="button" class="btn btn-light btn-xs"><a class="conf" target="_blank" href="http://metro.cs.ucla.edu/mcp.html">Website</a></button>
-                        <p></p>
-                        <div id="mobicom18-abs" class="collapse">
-                            Multi-carrier cellular access dynamically selects a preferred wireless carrier by leveraging the availability and diversity of multiple carrier networks at a location. It offers an alternative to the dominant single-carrier paradigm, and shows early signs of success through the operational Project Fi by Google. In this paper, we study the important, yet largely unexplored, problem of inter-carrier switching for multi-carrier access. We show that policy conflicts can arise between inter- and intra-carrier switching, resulting in oscillations among carriers in the worst case akin to BGP looping. We derive the conditions under which such oscillations occur for three categories of popular policy, and validate them with Project Fi whenever possible. We provide practical guidelines to ensure loop-freedom and assess them via trace-driven emulations.
-                        </div>
-                        <div id="mobicom18-bib" class="collapse">
-                            @inproceedings{yuan2018multicarrier,
-                            author = {Yuan, Zengwen and Li, Qianru and Li, Yuanjie and Lu, Songwu and Peng, Chunyi and Varghese, George},
-                            title = {Resolving Policy Conflicts in Multi-Carrier Cellular Access},
-                            booktitle = {Proceedings of the 24th Annual International Conference on Mobile Computing and Networking},
-                            series = {MobiCom '18},
-                            year = {2018},
-                            isbn = {978-1-4503-5903-0},
-                            location = {New Delhi, India},
-                            pages = {147--162},
-                            numpages = {16},
-                            url = {http://doi.acm.org/10.1145/3241539.3241558},
-                            doi = {10.1145/3241539.3241558},
-                            acmid = {3241558},
-                            publisher = {ACM},
-                            address = {New York, NY, USA},
-                            keywords = {multi-carrier cellular access, inter-carrier switching, inter-carrier policy, policy-induced loop, stability, 4G/5G mobile networks},
-                            }
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="label label-primary">C11</span>
-                    </td>
-                    <td>
-                        <h4 class="list-group-item-heading">
-                            A Machine Learning Based Approach to Mobile Network Analysis
-                            <span class="badge"><a class="conf" target="_blank" href="http://icccn.org/icccn18/">ICCCN '18</a></span>
-                        </h4>
-                        <p class="author">
-                            <strong>Zengwen Yuan</strong>, Yuanjie Li, Chunyi Peng, Songwu Lu, Haotian Deng, Zhaowei Tan, Taqi Raza<br>
-                            Proceedings of the 27th International Conference on Computer Communications and Networks (ICCCN 2018)<br>
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#icccn18-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#icccn18-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/papers/icccn18-yuan-ml-mobile-analytics.pdf">PDF</a></button>
-                        <!-- <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="https://ieeexplore.ieee.org/document/8487371">PDF (IEEEXplore)</a></button> -->
-                        <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/slides/icccn18-yuan-ml-mobile-analytics-slides.pdf">Slides</a></button>
-                        <p></p>
-                        <div id="icccn18-abs" class="collapse">
-                            In this paper, we present our recent work in progress on 4G mobile network analysis. In order to provide an in-depth study on the closed network operations, we advocate a novel approach via two-level, device-centric machine learning that can open up the system behaviors and facilitate fine-grained analysis. We describe our proposed approach, and use the latency analysis on two popular mobile apps (Web browsing and Instant Messaging) to illustrate how our scheme works. We further present preliminary results and discuss open issues.
-                        </div>
-                        <div id="icccn18-bib" class="collapse">
-                            @inproceedings{yuan2018mlanalysis,
-                            author={Zengwen Yuan and Yuanjie Li and Chunyi Peng and Songwu Lu and Haotian Deng and Zhaowei Tan and Taqi Raza},
-                            booktitle={2018 27th International Conference on Computer Communication and Networks (ICCCN)},
-                            title={A Machine Learning Based Approach to Mobile Network Analysis},
-                            year={2018},
-                            volume={},
-                            number={},
-                            pages={1-9},
-                            doi={10.1109/ICCCN.2018.8487371},
-                            ISSN={1095-2055},
-                            month={July},
-                            }
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="label label-primary">C10</span>
-                    </td>
-                    <td>
-                        <h4 class="list-group-item-heading">
-                            Dependency Analysis of Cloud Applications for Performance Monitoring using Recurrent Neural Networks
-                            <span class="badge"><a class="conf" target="_blank" href="http://cci.drexel.edu/bigdata/bigdata2017/">BigData '17</a></span>
-                        </h4>
-                        <p class="author">
-                            Syed Yousaf Shah, <strong>Zengwen Yuan</strong>, Songwu Lu, Petros Zerfos<br>
-                            Proceedings of 2017 IEEE International Conference on Big Data (BigData '17)<br>
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#bigdata17-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#bigdata17-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://ieeexplore.ieee.org/document/8258087/">PDF</a></button>
-                        <!-- <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href=#>Slides</a></button> -->
-                        <p></p>
-                        <div id="bigdata17-abs" class="collapse">
-                            Performance monitoring of cloud-native applications that consist of several micro-services involves the analysis of time series data collected from the infrastructure, platform, and application layers of the cloud software stack. The analysis of the runtime dependencies amongst the component microservices is an essential step towards performing cloud resource management, detecting anomalous behavior of cloud applications, and meeting customer Service Level Agreements (SLAs). Finding such dependencies is challenging due to the non-linear nature of interactions, aberrant data measurements and lack of domain knowledge. In this paper, we propose a novel use of the modeling capability of Long-Short Term Memory (LSTM) recurrent neural networks, which excel in capturing temporal relationships in multi-variate time series data and being resilient to noisy pattern representations. Our proposed technique looks into the LSTM model structure, to uncover dependencies amongst performance metrics, which were learned during training. We further apply this technique in three monitoring use cases, namely finding the strongest performance predictors, discovering lagged/temporal dependencies, and improving the accuracy of forecasting for a given metric. We demonstrate the viability of our approach, by comparing the results of our proposed method in the three use cases with those obtained from previously proposed methods, such as Granger causality and the classical statistical time series analysis models, such as ARIMA and Holt-Winters. For our experiments and analysis, we use performance monitoring data collected from two sources: a controlled experiment involving a sample cloud application that we deployed in a public cloud infrastructure and cloud monitoring data collected from the monitoring service of an operational, public cloud service provider.
-                        </div>
-                        <div id="bigdata17-bib" class="collapse">
-                            @inproceedings{8258087,
-                            author={S. Y. Shah and Z. Yuan and S. Lu and P. Zerfos},
-                            booktitle={2017 IEEE International Conference on Big Data (Big Data)},
-                            title={Dependency analysis of cloud applications for performance monitoring using recurrent neural networks},
-                            year={2017},
-                            volume={},
-                            number={},
-                            pages={1534-1543},
-                            keywords={Portable document format;Big Data;Machine Learning;Neural networks;Statistical learning;Supervised learning;Time series analysis},
-                            doi={10.1109/BigData.2017.8258087},
-                            ISSN={},
-                            month={Dec},}
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="label label-primary">C9</span>
-                    </td>
-                    <td>
-                        <!-- ACM DL Article: A control-plane perspective on reducing data access latency in LTE networks -->
-                        <h4 class="list-group-item-heading">
-                            A Control-Plane Perspective on Reducing Data Access Latency in LTE Networks
-                            <span class="badge"><a class="conf" target="_blank" href="https://www.sigmobile.org/mobicom/2017/">MobiCom '17</a></span>
-                        </h4>
-                        <p class="author">
-                            Yuanjie Li, <strong>Zengwen Yuan</strong>, Chunyi Peng<br>
-                            Proceedings of the 23rd Annual International Conference on Mobile Computing and Networking (MobiCom '17), acceptance rate: 35/189 = 18.5%<br>
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#mobicom17-dpcm-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#mobicom17-dpcm-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://dl.acm.org/authorize?N47348">PDF</a></button>
-                        <!-- <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href=#>Slides</a></button> -->
-                        <button type="button" class="btn btn-warning btn-xs"><a class="conf" target="_blank" href="https://www.youtube.com/watch?v=Vz8igu2BMkA">Video</a></button>
-                       <button type="button" class="btn btn-light btn-xs"><a class="conf" target="_blank" href="http://metro.cs.ucla.edu/dpcm.html">Website</a></button>
-                        <p></p>
-                        <!-- ACM DL Bibliometrics: A control-plane perspective on reducing data access latency in LTE networks -->
-                        <!-- <div class="acmdlstat" id ="stats2973751"><iframe src="http://dl.acm.org/authorizestats?N39791" width="100%" height="30" scrolling="no" frameborder="0">frames are not supported</iframe></div> -->
-                        <div id="mobicom17-dpcm-abs" class="collapse">
-                            Control-plane operations are indispensable to providing data access to mobile devices in the 4G LTE networks. They provision necessary control states at the device and network nodes to enable data access. However, the current design may suffer from long data access latency even under good radio conditions. The fundamental problem is that, data-plane packet delivery cannot start or resume until all control-plane procedures are completed, and these control procedures run sequentially by design at the device and network nodes. In this work, we show both are more than necessary under popular usage cases. We design DPCM, which reduces data access latency through parallel processing approaches and exploiting device-side state replica. We implement DPCM and validate its effectiveness with extensive evaluations.
-                        </div>
-                        <div id="mobicom17-dpcm-bib" class="collapse">
-                            @inproceedings{Li:2017:CPR:3117811.3117838,
-                            author = {Li, Yuanjie and Yuan, Zengwen and Peng, Chunyi},
-                            title = {A Control-Plane Perspective on Reducing Data Access Latency in LTE Networks},
-                            booktitle = {Proceedings of the 23rd Annual International Conference on Mobile Computing and Networking},
-                            series = {MobiCom '17},
-                            year = {2017},
-                            isbn = {978-1-4503-4916-1},
-                            location = {Snowbird, Utah, USA},
-                            pages = {56--69},
-                            numpages = {14},
-                            url = {http://doi.acm.org/10.1145/3117811.3117838},
-                            doi = {10.1145/3117811.3117838},
-                            acmid = {3117838},
-                            publisher = {ACM},
-                            address = {New York, NY, USA},
-                            keywords = {4G/5G network, control plane, device-side state replica, latency, parallel processing},
-                            }
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="label label-primary">C8</span>
-                    </td>
-                    <td>
-                        <!-- ACM DL Article: The <i>Tick</i> Programmable Low-Latency SDR System -->
-                        <h4 class="list-group-item-heading">
-                            The Tick Programmable Low-Latency SDR System
-                            <span class="badge"><a class="conf" target="_blank" href="https://www.sigmobile.org/mobicom/2017/">MobiCom '17</a></span>
-                        </h4>
-                        <p class="author">
-                            Haoyang Wu, Tao Wang, <strong>Zengwen Yuan</strong>, Chunyi Peng, Zhiwei Li, Zhaowei Tan, Boyan Ding, Xiaoguang Li, Yuanjie Li, Jun Liu, Songwu Lu<br>
-                            Proceedings of the 23rd Annual International Conference on Mobile Computing and Networking (MobiCom '17), acceptance rate: 35/189 = 18.5%<br><strong><font color="red">Best Community Paper Award</font></strong><br>
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#mobicom17-tick-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#mobicom17-tick-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://dl.acm.org/authorize?N47347">PDF</a></button>
-                        <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/slides/mobicom17-tick-slides.pdf">Slides</a></button>
-                        <button type="button" class="btn btn-warning btn-xs"><a class="conf" target="_blank" href="https://www.youtube.com/watch?v=_34FlkJBxiQ">Video</a></button>
-                       <button type="button" class="btn btn-light btn-xs"><a class="conf" target="_blank" href="http://metro.cs.ucla.edu/tick.html">Website</a></button>
-                        <p></p>
-                        <!-- ACM DL Bibliometrics: The Tick programmable low-latency SDR system-->
-                        <!-- <div class="acmdlstat" id ="stats2973751"><iframe src="http://dl.acm.org/authorizestats?N39791" width="100%" height="30" scrolling="no" frameborder="0">frames are not supported</iframe></div> -->
-                        <div id="mobicom17-tick-abs" class="collapse">
-                            Tick is a new SDR system that provides programmability and ensures low latency at both PHY and MAC. It supports modular design and element-based programming, similar to the Click router framework. It uses an accelerator-rich architecture, where an embedded processor executes control flows and handles various MAC events. User-defined accelerators offload those tasks, which are either computation-intensive or communication-heavy, or require fine-grained timing control, from the processor, and accelerate them in hardware. Tick applies a number of hardware and software co-design techniques to ensure low latency, including multi-clock-domain pipelining, field-based processing pipeline, separation of data and control flows, etc. We have implemented Tick and validated its effectiveness through extensive evaluations as well as two prototypes of 802.11ac SISO/MIMO and 802.11a/g full-duplex.
-                        </div>
-                        <div id="mobicom17-tick-bib" class="collapse">
-                            @inproceedings{Wu:2017:TPL:3117811.3117834,
-                            author = {Wu, Haoyang and Wang, Tao and Yuan, Zengwen and Peng, Chunyi and Li, Zhiwei and Tan, Zhaowei and Ding, Boyan and Li, Xiaoguang and Li, Yuanjie and Liu, Jun and Lu, Songwu},
-                            title = {The Tick Programmable Low-Latency SDR System},
-                            booktitle = {Proceedings of the 23rd Annual International Conference on Mobile Computing and Networking},
-                            series = {MobiCom '17},
-                            year = {2017},
-                            isbn = {978-1-4503-4916-1},
-                            location = {Snowbird, Utah, USA},
-                            pages = {101--113},
-                            numpages = {13},
-                            url = {http://doi.acm.org/10.1145/3117811.3117834},
-                            doi = {10.1145/3117811.3117834},
-                            acmid = {3117834},
-                            publisher = {ACM},
-                            address = {New York, NY, USA},
-                            keywords = {802.11, 802.11ac, MAC, PHY, full-duplex, low latency, programmability, software-defined radio},
-                            }
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="label label-primary">C7</span>
-                    </td>
-                    <td>
-                        <h4 class="list-group-item-heading">
-                            Towards Automated Intelligence in 5G Systems
-                            <span class="badge"><a class="conf" target="_blank" href="http://ieeexplore.ieee.org/abstract/document/8038472/">ICCCN '17</a></span>
-                        </h4>
-                        <p class="author">
-                            Haotian Deng, Qianru Li, Yuanjie Li, Songwu Lu, Chunyi Peng, Taqi Raza, Zhaowei Tan, Zengwen Yuan, Zhehui Zhang (in alphabetical order)<br>
-                            Proceedings of the 26th International Conference on Computer Communications and Networks (ICCCN '17)<br>
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#icccn17-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#icccn17-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/papers/icccn17-5g-automated-intelligence.pdf">PDF</a></button>
-                        <p></p>
-                        <div id="icccn17-abs" class="collapse">
-                            In this paper, we call for a paradigm shift away from the wireless-access focused research efforts on 5G networked systems. We believe that the architectural limitations should share equal blame on issues of performance, reliability, and security. We thus identify architectural weakness on both sides of the mobile clients and the 4G network infrastructure. Our recent findings show that, contrary to commonly held perceptions, many design and operational issues arise not due to poor wireless link qualities. Instead, they are rooted in such architectural downsides. To address these issues, we further propose a new approach of enabling automated intelligence inside the 4G/5G network systems. We next describe our ongoing efforts along two dimensions: empowering date-driven smart clients and constructing verifiable network infrastructure. We report some early results and discuss possible next steps.
-                        </div>
-                        <div id="icccn17-bib" class="collapse">
-                            @inproceedings{8038472,
-                            author={Haotian Deng and Qianru Li and Yuanjie Li and Songwu Lu and Chunyi Peng and Taqi Raza and Zhaowei Tan and Zengwen Yuan and Zhehui Zhang},
-                            booktitle={2017 26th International Conference on Computer Communication and Networks (ICCCN)},
-                            title={Towards Automated Intelligence in 5G Systems},
-                            year={2017},
-                            volume={},
-                            number={},
-                            pages={1-9},
-                            keywords={Communication system security;Internet;Mobile communication;Mobile computing;Protocols;Switches;Wireless communication},
-                            doi={10.1109/ICCCN.2017.8038472},
-                            ISSN={},
-                            month={July},}
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="label label-primary">C6</span>
-                    </td>
-                    <td>
-                        <!-- ACM DL Article: Mobileinsight: extracting and analyzing cellular network information on smartphones -->
-                        <h4 class="list-group-item-heading">
-                            MobileInsight: Extracting and Analyzing Cellular Network Information on Smartphones
-                            <span class="badge"><a class="conf" target="_blank" href="https://www.sigmobile.org/mobicom/2016/">MobiCom '16</a></span>
-                        </h4>
-                        <p class="author">
-                            Yuanjie Li, Chunyi Peng, <strong>Zengwen Yuan</strong>, Jiayao Li, Haotian Deng, Tao Wang<br>
-                            Proceedings of the 22nd Annual International Conference on Mobile Computing and Networking (MobiCom '16), acceptance rate: 32/226 = 14.2%<br><strong><font color="red">Best Community Paper Award</font></strong><br>
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#mobicom16-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#mobicom16-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://dl.acm.org/authorize?N39791">PDF</a></button>
-                        <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/slides/mobicom16-mobileinsight-slides.pdf">Slides</a></button>
-                        <button type="button" class="btn btn-warning btn-xs"><a class="conf" target="_blank" href="https://www.youtube.com/watch?v=uuhWdQwidBc">Video</a></button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/papers/mobicom16-mobileinsight-poster.pdf">Poster</a></button>
-                        <p></p>
-                        <!-- ACM DL Bibliometrics: Mobileinsight: extracting and analyzing cellular network information on smartphones-->
-                        <!-- <div class="acmdlstat" id ="stats2973751"><iframe src="http://dl.acm.org/authorizestats?N39791" width="100%" height="30" scrolling="no" frameborder="0">frames are not supported</iframe></div> -->
-                        <div id="mobicom16-abs" class="collapse">
-                           We design and implement MobileInsight, a software tool that collects, analyzes and exploits runtime network information from operational cellular networks. MobileInsight runs on commercial off-the-shelf phones without extra hardware or additional support from operators. It exposes protocol messages on both control plane and (below IP) data plane from the 3G/4G chipset. It provides in-device protocol analysis and operation logic inference. It further offers a simple API, through which developers and researchers obtain access to low-level network information for their mobile applications. We have built three showcases to illustrate how MobileInsight is applied to cellular network research.
-                        </div>
-                        <div id="mobicom16-bib" class="collapse">
-                            @inproceedings{Li:2016:MEA:2973750.2973751,
-                            author = {Li, Yuanjie and Peng, Chunyi and Yuan, Zengwen and Li, Jiayao and Deng, Haotian and Wang, Tao},
-                            title = {Mobileinsight: Extracting and Analyzing Cellular Network Information on Smartphones},
-                            booktitle = {Proceedings of the 22Nd Annual International Conference on Mobile Computing and Networking},
-                            series = {MobiCom '16},
-                            year = {2016},
-                            isbn = {978-1-4503-4226-1},
-                            location = {New York City, New York},
-                            pages = {202--215},
-                            numpages = {14},
-                            url = {http://doi.acm.org/10.1145/2973750.2973751},
-                            doi = {10.1145/2973750.2973751},
-                            acmid = {2973751},
-                            publisher = {ACM},
-                            address = {New York, NY, USA},
-                            }
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="label label-primary">C5</span>
-                    </td>
-                    <td>
-                        <!-- ACM DL Article: CAP on mobility control for 4G LTE networks -->
-                        <h4 class="list-group-item-heading">
-                            CAP on Mobility Control for 4G LTE Networks
-                            <span class="badge"><a class="conf" target="_blank" href="http://hotwireless16.ece.wisc.edu/">HotWireless '16</a></span>
-                        </h4>
-                        <p class="author">
-                            Yuanjie Li, <strong>Zengwen Yuan</strong>, Chunyi Peng, Songwu Lu<br>
-                            Proceedings of the 3rd Workshop on Hot Topics in Wireless (ACM HotWireless '16), invited paper<br>
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#hotwireless16-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#hotwireless16-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://dl.acm.org/authorize?N39792">PDF</a></button>
-                        <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/slides/hotwireless16-cap-slides.pdf">Slides</a></button>
-                        <p></p>
-                        <!-- ACM DL Bibliometrics: CAP on mobility control for 4G LTE networks-->
-                        <!-- <div class="acmdlstat" id ="stats2980120"><iframe src="http://dl.acm.org/authorizestats?N39792" width="100%" height="30" scrolling="no" frameborder="0">frames are not supported</iframe></div> -->
-                        <div id="hotwireless16-abs" class="collapse">
-                           The CAP theorem exposes the fundamental tradeoffs among three key properties of strong consistency, availability and partition tolerance in distributed networked systems. In this position paper, we take the CAP perspective on 4G mobility control. We view the control-plane management for mobility support as a distributed signaling system. We show that the impossibility result of the CAP theorem also holds for mobility control: It is impossible for any mobility control to guarantee sequential consistency, high service availability, and partition tolerance simultaneously. Unfortunately, the current 4G system adopts its mobility scheme with the notion of sequential consistency. Our empirical study further confirms that, the incurred data unavailability (i.e., data service suspension) time is comparable to that induced by wireless connectivity setup. We argue that the desirable mobility control for the upcoming 5G networks should take a paradigm shift. We discuss our early effort on re-examining the consistency notion for higher availability and fault tolerance.
-                        </div>
-                        <div id="hotwireless16-bib" class="collapse">
-                            @inproceedings{Li:2016:CMC:2980115.2980120,
-                            author = {Li, Yuanjie and Yuan, Zengwen and Peng, Chunyi and Lu, Songwu},
-                            title = {CAP on Mobility Control for 4G LTE Networks},
-                            booktitle = {Proceedings of the 3rd Workshop on Hot Topics in Wireless},
-                            series = {HotWireless '16},
-                            year = {2016},
-                            isbn = {978-1-4503-4251-3},
-                            location = {New York City, New York},
-                            pages = {33--37},
-                            numpages = {5},
-                            url = {http://doi.acm.org/10.1145/2973750.2980120},
-                            doi = {10.1145/2973750.2980120},
-                            acmid = {2980120},
-                            publisher = {ACM},
-                            address = {New York, NY, USA},
-                            }
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="label label-primary">C4</span>
-                    </td>
-                    <td>
-                        <h4 class="list-group-item-heading">
-                            iCellular: Device-Customized Cellular Network Access on Commodity Smartphones
-                            <span class="badge"><a class="conf" target="_blank" href="https://www.usenix.org/conference/nsdi16">NSDI '16</a></span>
-                        </h4>
-                        <p class="author">
-                            Yuanjie Li, Haotian Deng, Chunyi Peng, <strong>Zengwen Yuan</strong>, Guan-Hua Tu, Jiayao Li, Songwu Lu<br>
-                            Proceedings of the 13th USENIX Symposium on Networked Systems Design and Implementation (NSDI '16), acceptance rate: 45/228 = 19.7%<br>
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#nsdi16-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#nsdi16-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-li-yuanjie.pdf">PDF</a></button>
-                        <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="https://www.usenix.org/sites/default/files/conference/protected-files/nsdi16_slides_li-yuanjie.pdf">Slides</a></button>
-                        <p></p>
-                        <div id="nsdi16-abs" class="collapse">
-                           Exploiting multi-carrier access offers a promising direction to boost access quality in mobile networks. However, our experiments show that, the current practice does not achieve the full potential of this approach because it has not utilized fine-grained, cellular-specific domain knowledge. In this work, we propose iCellular, which exploits low-level cellular information at the device to improve multi-carrier access. Specifically, iCellular is proactive and adaptive in its multi-carrier selection by leveraging existing end-device mechanisms and standards-complaint procedures. It performs adaptive monitoring to ensure responsive selection and minimal service disruption, and enhances carrier selection with online learning and runtime decision fault prevention. It is readily deployable on smartphones without infrastructure/hardware modifications. We implement iCellular on commodity phones and harness the efforts of Project Fi to assess multi-carrier access over two US carriers: T-Mobile and Sprint. Our evaluation shows that, iCellular boosts the devices with up to 3.74x throughput improvement, 6.9x suspension reduction, and 1.9x latency decrement over the state-of-the-art selection scheme, with moderate CPU, memory and energy overheads.
-                        </div>
-                        <div id="nsdi16-bib" class="collapse">
-                            @inproceedings {194982,
-                            title = {iCellular: Device-Customized Cellular Network Access on Commodity Smartphones},
-                            booktitle = {13th USENIX Symposium on Networked Systems Design and Implementation (NSDI 16)},
-                            year = {2016},
-                            month = Mar,
-                            address = {Santa Clara, CA},
-                            url = {https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/li-yuanjie},
-                            publisher = {USENIX Association},
-                            }
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="label label-primary">C3</span>
-                    </td>
-                    <td>
-                        <!-- ACM DL Article: VoLTE*: A Lightweight Voice Solution to 4G LTE Networks -->
-                        <h4 class="list-group-item-heading">
-                            VoLTE*: A Lightweight Voice Solution to 4G LTE Networks
-                            <span class="badge"><a class="conf" target="_blank" href="http://www.hotmobile.org/2016/">HotMobile '16</a></span>
-                        </h4>
-                        <p class="author">
-                            Guan-Hua Tu, Chi-Yu Li, Chunyi Peng, <strong>Zengwen Yuan</strong>, Yuanjie Li, Xiaohu Zhao, Songwu Lu<br>
-                            Proceedings of the 17th International Workshop on Mobile Computing Systems and Applications (HotMobile '16), acceptance rate: 18/55 = 32.7%<br>
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#hotmobile16-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#hotmobile16-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://dl.acm.org/authorize?N39793">PDF</a></button>
-                        <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/slides/hotmobile16-volte-slides.pdf">Slides</a></button>
-                        <p></p>
-                        <!-- ACM DL Bibliometrics: VoLTE*: A Lightweight Voice Solution to 4G LTE Networks-->
-                        <!-- <div class="acmdlstat" id ="stats2873604"><iframe src="http://dl.acm.org/authorizestats?N39793" width="100%" height="30" scrolling="no" frameborder="0">frames are not supported</iframe></div> -->
-                        <div id="hotmobile16-abs" class="collapse">
-                            VoLTE is the designated voice solution to the LTE network. Its early deployment is ongoing worldwide. In this work, we report an assessment on VoLTE. We show that VoLTE offers no categorically better quality than popular VoIP applications in all tested scenarios except some congested scenarios. Given the high cost on infrastructure upgrade, we argue that VoLTE, in its current form, might not warrant the deployment effort. We sketch VoLTE*, a lightweight voice solution from which all parties of users, LTE carriers, and VoIP service providers may benefit.
-                        </div>
-                        <div id="hotmobile16-bib" class="collapse">
-                            @inproceedings{Tu:2016:VLV:2873587.2873604,
-                            author = {Tu, Guan-Hua and Li, Chi-Yu and Peng, Chunyi and Yuan, Zengwen and Li, Yuanjie and Zhao, Xiaohu and Lu, Songwu},
-                            title = {VoLTE*: A Lightweight Voice Solution to 4G LTE Networks},
-                            booktitle = {Proceedings of the 17th International Workshop on Mobile Computing Systems and Applications},
-                            series = {HotMobile '16},
-                            year = {2016},
-                            isbn = {978-1-4503-4145-5},
-                            location = {St. Augustine, Florida, USA},
-                            pages = {3--8},
-                            numpages = {6},
-                            url = {http://doi.acm.org/10.1145/2873587.2873604},
-                            doi = {10.1145/2873587.2873604},
-                            acmid = {2873604},
-                            publisher = {ACM},
-                            address = {New York, NY, USA},
-                            keywords = {cellular networks, voice, volte*},
-                            }
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="label label-primary">C2</span>
-                    </td>
-                    <td>
-                        <!-- ACM DL Article: Insecurity of Voice Solution VoLTE in LTE Mobile Networks -->
-                        <h4 class="list-group-item-heading">
-                            Insecurity of Voice Solution VoLTE in LTE Mobile Networks
-                            <span class="badge"><a class="conf" target="_blank" href="http://www.sigsac.org/ccs/CCS2015/">CCS '15</a></span>
-                        </h4>
-                        <p class="author">
-                            Chi-Yu Li, Guan-Hua Tu, Chunyi Peng, <strong>Zengwen Yuan</strong>, Yuanjie Li, Songwu Lu, Xinbing Wang<br>
-                            Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security (CCS '15), acceptance rate: 128/646 = 19.8%<br>
-                            <!--Denver, Colorado, Oct. 2015.-->
-                        </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#ccs15-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#ccs15-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://dl.acm.org/authorize?N39794">PDF</a></button>
-                        <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/slides/ccs15-volte-slides.pdf">Slides</a></button>
-                        <button type="button" class="btn btn-warning btn-xs"><a class="conf" target="_blank" href="http://www.theverge.com/2015/10/22/9594128/volte-vulnerability-attack-verizon-att-tmobile">Coverage:TheVerge</a></button>
-                        <button type="button" class="btn btn-warning btn-xs"><a class="conf" target="_blank" href="http://www.rcrwireless.com/20151027/network-infrastructure/lte/researchers-volte-hack-free-data-tag6">Coverage:RCRWireless</a></button>
-                        <p></p>
-                        <!-- ACM DL Bibliometrics: Insecurity of Voice Solution VoLTE in LTE Mobile Networks-->
-                        <!-- <div class="acmdlstat" id ="stats2813618"><iframe src="http://dl.acm.org/authorizestats?N39794" width="100%" height="30" scrolling="no" frameborder="0">frames are not supported</iframe></div> -->
-                        <div id="ccs15-abs" class="collapse">
-                            VoLTE (Voice-over-LTE) is the designated voice solution to the LTE mobile network, and its worldwide deployment is underway. It reshapes call services from the traditional circuit-switched telecom telephony to the packet-switched Internet VoIP. In this work, we conduct the first study on VoLTE security before its full rollout. We discover several vulnerabilities in both its control-plane and data-plane functions, which can be exploited to disrupt both data and voice in operational networks. In particular, we find that the adversary can easily gain free data access, shut down continuing data access, or subdue an ongoing call, etc. We validate these proof-of-concept attacks using commodity smartphones (rooted and unrooted) in two Tier-1 US mobile carriers. Our analysis reveals that, the problems stem from both the device and the network. The device OS and chipset fail to prohibit non-VoLTE apps from accessing and injecting packets into VoLTE control and data planes. The network infrastructure also lacks proper access control and runtime check.
-                        </div>
-                        <div id="ccs15-bib" class="collapse">
-                            @inproceedings{Li:2015:IVS:2810103.2813618,
-                            author = {Li, Chi-Yu and Tu, Guan-Hua and Peng, Chunyi and Yuan, Zengwen and Li, Yuanjie and Lu, Songwu and Wang, Xinbing},
-                            title = {Insecurity of Voice Solution VoLTE in LTE Mobile Networks},
-                            booktitle = {Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security},
-                            series = {CCS '15},
-                            year = {2015},
-                            isbn = {978-1-4503-3832-5},
-                            location = {Denver, Colorado, USA},
-                            pages = {316--327},
-                            numpages = {12},
-                            url = {http://doi.acm.org/10.1145/2810103.2813618},
-                            doi = {10.1145/2810103.2813618},
-                            acmid = {2813618},
-                            publisher = {ACM},
-                            address = {New York, NY, USA},
-                            keywords = {LTE, attack, cellular networks, defense, volte},}
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <span class="label label-primary">C1</span>
                     </td>
                     <td>
                         <h4 class="list-group-item-heading">
-                            VSMC MIMO: A Spectral Efficient Scheme for Cooperative Relay in Cognitive Radio Networks
-                            <span class="badge"><a class="conf" target="_blank" href="http://infocom2015.ieee-infocom.org/">INFOCOM '15</a></span>
+                            Reconstructing Human Joint Motion with Computational Fabrics.
+                            <span class="badge"><a class="conf" target="_blank" href="./Files/ubicomp19-fabric.pdf">UbiComp '19</a></span>
                         </h4>
-                        <p class="author">Chao Kong, <strong>Zengwen Yuan</strong>, Xushen Han, Feng Yang, Xinbing Wang, Tao Wang, Songwu Lu<br>
-                            2015 IEEE Conference on Computer Communications (INFOCOM '15), acceptance rate: 316/1640 = 19.3%<br>
-                            <!--Hong Kong, China, April 2015.-->
+                        <p class="author">
+                            Ruibo Liu, Qijia Shao, <strong>Siqi Wang</strong>, Christina Ru, Devin Balkcom, and Xia Zhou<br>
+                            Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies.
+                            Presented at ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp), London, September 2019. <br>
                         </p>
-                        <button type="button" class="btn btn-success btn-xs" data-target="#infocom15-abs" data-toggle="collapse">Abstract</button>
-                        <button type="button" class="btn btn-info btn-xs" data-target="#infocom15-bib" data-toggle="collapse">Bib</button>
-                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/papers/infocom15-vsmc-mimo.pdf">PDF</a></button>
-                        <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/slides/infocom15-vsmc-mimo-slides.pdf">Slides</a></button>
+                        <button type="button" class="btn btn-success btn-xs" data-target="#ubicomp19-abs" data-toggle="collapse">Abstract</button>
+                        <button type="button" class="btn btn-info btn-xs" data-target="#mobicom18-bib" data-toggle="collapse">Bib</button>
+                        <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/papers/mobicom18-yuan-multicarrier-authorversion.pdf">PDF</a></button>
                         <p></p>
-                        <div id="infocom15-abs" class="collapse">
-                            Multiple-Input Multiple-Output (MIMO) technology has become an efficient way to improve the capacity and reliability of wireless networks. Traditional MIMO schemes are designed mainly for the scenario of contiguous spectrum ranges. However, in cognitive radio networks, the available spectrum is discontiguous, making traditional MIMO schemes inefficient for spectrum usage. This motivates the design of new MIMO schemes that apply to networks with discontiguous spectrum ranges. In this paper, we propose a scheme called VSMC MIMO, which enables MIMO nodes to transmit variable numbers of streams in multiple discontinuous spectrum ranges. This scheme can largely improve the spectrum utilization and meanwhile maintain the same spatial multiplexing and diversity gains as traditional MIMO schemes. To implement this spectral-efficient scheme on cooperative MIMO relays in cognitive radio networks, we propose a joint relay selection and spectrum allocation algorithm and a corresponding MAC protocol for the system. We also build a testbed by the Universal Software Radio Peripherals (USRPs) to evaluate the performances of the proposed scheme in practical networks. The experimental results show that VSMC MIMO can efficiently utilize the discontiguous spectrum and greatly improve the throughput of cognitive radio networks.
+                        <div id="ubicomp19-abs" class="collapse">
+                            Accurate and continuous monitoring of joint rotational motion is crucial for a wide range of applications such as physical
+                            rehabilitation and motion training. Existing motion capture systems, however, either need instrumentation
+                            of the environment, or fail to track arbitrary joint motion, or impose wearing discomfort by requiring rigid electrical sensors
+                            right around the joint area. This work studies the use of everyday fabrics as a flexible and soft sensing medium to monitor joint
+                            angular motion accurately and reliably. Specifically we focus on the primary use of conductive stretchable fabrics to sense the
+                            skin deformation during joint motion and infer the joint rotational angle. We tackle challenges of fabric sensing originated
+                            by the inherent properties of elastic materials by leveraging two types of sensing fabric and characterizing their properties
+                            based on models in material science. We apply models from bio-mechanics to infer joint angles and propose the use of dual
+                            strain sensing to enhance sensing robustness against user diversity and fabric position offsets. We fabricate prototypes using
+                            off-the-shelf fabrics and micro-controller. Experiments with ten participants show 9.69◦ median angular error in tracking
+                            joint angle and its sensing robustness across various users and activities.
                         </div>
-                        <div id="infocom15-bib" class="collapse">
-                            @inproceedings{7218599,
-                            author={Chao Kong and Zengwen Yuan and Xushen Han and Feng Yang and Xinbing Wang and Tao Wang and Songwu Lu},
-                            booktitle={2015 IEEE Conference on Computer Communications (INFOCOM)},
-                            title={VSMC MIMO: A spectral efficient scheme for cooperative relay in cognitive radio networks},
-                            year={2015},
-                            pages={2137-2145},
-                            keywords={MIMO communication;access protocols;cognitive radio;cooperative communication;diversity reception;multiplexing;radio spectrum management;relay networks (telecommunication);software radio;telecommunication network reliability;MAC protocol;USRP;VSMC MIMO scheme;cognitive radio network;contiguous spectrum range;cooperative relay;diversity gain;joint relay selection and spectrum allocation algorithm;multiple discontiguous spectrum range;multiple input multiple output technology;spatial multiplexing;spectral efficient scheme;spectrum utilization;universal software radio peripheral;wireless network reliability;Antennas;Cognitive radio;MIMO;Receivers;Relays;Resource management;Throughput},
-                            doi={10.1109/INFOCOM.2015.7218599},
-                            month={April},}
+                        <div id="ubicomp19-bib" class="collapse">
+                            @article{liu2019reconstructing,
+                            title={Reconstructing Human Joint Motion with Computational Fabrics},
+                            author={Liu, Ruibo and Shao, Qijia and Wang, Siqi and Ru, Christina and Balkcom, Devin and Zhou, Xia},
+                            journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+                            volume={3},
+                            number={1},
+                            pages={19},
+                            year={2019},
+                            publisher={ACM}
+                            }
                         </div>
                     </td>
                 </tr>
