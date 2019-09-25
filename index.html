@@ -357,11 +357,11 @@ __        __   _
         var todaystring=montharray[todaym]+" "+todayd+", "+todayy
         var paststring=montharray[m-1]+" "+d+", "+yr
         var difference="It's been " + (Math.round((Date.parse(todaystring)-Date.parse(paststring))/(24*60*60*1000))*1) + " days since I started Ph.D.!<br>"
-//            document.getElementById('phd-day-count').value = difference
+            document.getElementById('phd-day-count').value = difference
             document.getElementById('phd-day-count').innerHTML = difference
         }
         //enter the count up date using the format year/month/day
-        countup(2015,09,14)
+        countup(2019,09,03)
         </script>
 
         <!-- Oh, and please REMOVE or REPLACE this counter as well :) -->
