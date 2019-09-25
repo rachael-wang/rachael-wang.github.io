@@ -232,7 +232,7 @@ __        __   _
                 <tbody>
                     <tr>
                         <td>
-                            <span class="label label-primary">J4</span>
+                            <span class="label label-primary">J1</span>
                         </td>
                         <td>
                             <h4 class="list-group-item-heading">
@@ -247,148 +247,6 @@ __        __   _
                             <button type="button" class="btn btn-info btn-xs" data-target="#ton-icellular-bib" data-toggle="collapse">Bib</button>
                             <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="https://ieeexplore.ieee.org/document/8476210">PDF</a></button>
                             <p></p>
-                            <div id="ton-icellular-abs" class="collapse">
-                                Accessing multiple carrier networks (T-Mobile, Sprint, AT&amp;T, etc.) offers a promising paradigm for smartphones to boost its mobile network quality. However, the current practice does not achieve the full potential of this approach because it has not utilized fine-grained, cellular-specific domain knowledge. Our experiments and code analysis discover three implementation-independent issues: (1) it may not trigger the anticipated switch when the serving carrier network is poor; (2) the switch takes a much longer time than needed; and (3) the device fails to choose the high-quality network (e.g., selecting 3G rather than 4G). To address them, we propose iCellular, which exploits low-level cellular information at the device to improve multi-carrier access. iCellular is proactive and adaptive in its multi-carrier selection by leveraging existing end-device mechanisms and standards-complaint procedures. It performs adaptive monitoring to ensure responsive selection and minimal service disruption, and enhances carrier selection with online learning and runtime decision fault prevention. It is readily deployable on smartphones without infrastructure/hardware modifications. We implement iCellular on commodity phones and harness the efforts of Project Fi to assess multi-carrier access over two US carriers: T-Mobile and Sprint. Our evaluation shows that, iCellular boosts the devices’ throughput with up to 3.74× throughput improvement, 6.9× suspension reduction, and 1.9× latency decrement over the state-of-the-art, with moderate CPU, memory and energy overheads.
-                            </div>
-                            <div id="ton-icellular-bib" class="collapse">
-                                @article{ton2018icellular,
-                                author={Yuanjie Li and Chunyi Peng and Haotian Deng and Zengwen Yuan and Guan-Hua Tu and Jiayao Li and Songwu Lu and Xi Li},
-                                journal={IEEE/ACM Transactions on Networking},
-                                title={Device-Customized Multi-Carrier Network Access on Commodity Smartphones},
-                                year={2018},
-                                volume={26},
-                                number={6},
-                                pages={2542-2555},
-                                keywords={Switches;5G mobile communication;Google;Smart phones;3G mobile communication;Throughput;4G mobile communication;5G mobile communication;multi-carrier network access;project Fi.},
-                                doi={10.1109/TNET.2018.2869492},
-                                ISSN={1063-6692},
-                                month={Dec},
-                                }
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span class="label label-primary">J3</span>
-                        </td>
-                        <td>
-                            <h4 class="list-group-item-heading">
-                                The <emph>Tick</emph> Programmable Low-Latency SDR System
-                                <span class="badge"><a class="conf" target="_blank" href="http://dl.acm.org/citation.cfm?id=J1534">GetMobile Research Highlight</a></span>
-                            </h4>
-                            <p class="author">
-                                Haoyang Wu, Tao Wang, <strong>Zengwen Yuan</strong>, Chunyi Peng, Zhiwei Li, Zhaowei Tan, Boyan Ding, Yuanjie Li, Jun Liu, Songwu Lu<br>
-                                GetMobile: Mobile Computing and Communications, Volume 22 Issue 1 (March 2018): 26--30.<br>
-                            </p>
-                            <button type="button" class="btn btn-success btn-xs" data-target="#tick-getmobile-abs" data-toggle="collapse">Abstract</button>
-                            <button type="button" class="btn btn-info btn-xs" data-target="#tick-getmobile-bib" data-toggle="collapse">Bib</button>
-                            <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="https://dl.acm.org/citation.cfm?id=3229326">PDF</a></button>
-                            <p></p>
-                            <div id="tick-getmobile-abs" class="collapse">
-                                Software-defined radio (SDR) allows users to build flexible and configurable wireless communication systems. A number of SDR platforms are already available for use [3, 4, 5]. However, given the latest technology push (e.g., 5G, wireless edge computing) and user demand pull (e.g., low-latency VR/AR, realtime control on drones), today's requirements on SDR are different. Ideally, SDR systems should offer sufficient programmability and ensure high performance for both physical (PHY) and medium access control (MAC) layers. Unfortunately, it is hard to achieve both in the existing SDR systems.
-                            </div>
-                            <div id="tick-getmobile-bib" class="collapse">
-                                @article{Wu:2018:TPL:3229316.3229326,
-                                author = {Wu, Haoyang and Wang, Tao and Yuan, Zengwen and Peng, Chunyi and Li, Zhiwei and Tan, Zhaowei and Ding, Boyan and Li, Yuanjie and Liu, Jun and Lu, Songwu},
-                                title = {THE TICK PROGRAMMABLE LOW-LATENCY SDR SYSTEM},
-                                journal = {GetMobile: Mobile Comp. and Comm.},
-                                issue_date = {March 2018},
-                                volume = {22},
-                                number = {1},
-                                month = may,
-                                year = {2018},
-                                issn = {2375-0529},
-                                pages = {26--30},
-                                numpages = {5},
-                                url = {http://doi.acm.org/10.1145/3229316.3229326},
-                                doi = {10.1145/3229316.3229326},
-                                acmid = {3229326},
-                                publisher = {ACM},
-                                address = {New York, NY, USA},
-                                }
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span class="label label-primary">J2</span>
-                        </td>
-                        <td>
-                            <h4 class="list-group-item-heading">
-                                MobileInsight: Analyzing Cellular Network Information on Smartphones
-                                <span class="badge"><a class="conf" target="_blank" href="http://dl.acm.org/citation.cfm?id=J1534">GetMobile Research Highlight</a></span>
-                            </h4>
-                            <p class="author">
-                                Yuanjie Li, Chunyi Peng, <strong>Zengwen Yuan</strong>, Haotian Deng, Jiayao Li, Tao Wang<br>
-                                GetMobile: Mobile Computing and Communications, Volume 21 Issue 1 (March 2017): 39--42.<br>
-                            </p>
-                            <button type="button" class="btn btn-success btn-xs" data-target="#mi-getmobile-abs" data-toggle="collapse">Abstract</button>
-                            <button type="button" class="btn btn-info btn-xs" data-target="#mi-getmobile-bib" data-toggle="collapse">Bib</button>
-                            <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://dl.acm.org/authorize?N47349">PDF</a></button>
-                            <p></p>
-                            <div id="mi-getmobile-abs" class="collapse">
-                                MobileInsight is a software tool that collects, analyzes and exploits runtime, fine-grained cellular network information over commodity phones. It is our first step to help developers and researchers understand the closed, large-scale cellular network system. It exposes the below-IP protocol messages to the user space, provides protocol analysis, and offers APIs for mobile applications to obtain low-level network information. We have built showcases to illustrate how MobileInsight can be applied to cellular network research.
-                            </div>
-                            <div id="mi-getmobile-bib" class="collapse">
-                                @article{Li:2017:MAC:3103535.3103548,
-                                author = {Li, Yuanjie and Peng, Chunyi and Yuan, Zengwen and Deng, Haotian and Li, Jiayao and Wang, Tao},
-                                title = {MobileInsight: Analyzing Cellular Network Information on Smartphones},
-                                journal = {GetMobile: Mobile Comp. and Comm.},
-                                issue_date = {March 2017},
-                                volume = {21},
-                                number = {1},
-                                month = may,
-                                year = {2017},
-                                issn = {2375-0529},
-                                pages = {39--42},
-                                numpages = {4},
-                                url = {http://doi.acm.org/10.1145/3103535.3103548},
-                                doi = {10.1145/3103535.3103548},
-                                acmid = {3103548},
-                                publisher = {ACM},
-                                address = {New York, NY, USA},
-                                }
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span class="label label-primary">J1</span>
-                        </td>
-                        <td>
-                            <h4 class="list-group-item-heading">
-                                DiscoverFriends: Secure Social Network Communication in Mobile Ad Hoc Networks
-                                <span class="badge"><a class="conf" target="_blank" href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1530-8677">WCMC</a></span>
-                            </h4>
-                            <p class="author">
-                                Joshua Joy, Eric Chung, <strong>Zengwen Yuan</strong>, Leqi Zou, Jiayao Li, Mario Gerla<br>
-                                Wireless Communications and Mobile Computing, Volume 16 Issue 11 (July 2016): 1401--1413.<br>
-                            </p>
-                            <button type="button" class="btn btn-success btn-xs" data-target="#discoverfriends-abs" data-toggle="collapse">Abstract</button>
-                            <button type="button" class="btn btn-info btn-xs" data-target="#discoverfriends-bib" data-toggle="collapse">Bib</button>
-                            <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://onlinelibrary.wiley.com/doi/10.1002/wcm.2708/full/">PDF</a></button>
-                            <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="http://arxiv.org/pdf/1505.07487v2.pdf">ArXiv Preprint</a></button>
-                            <button type="button" class="btn btn-warning btn-xs"><a class="conf" target="_blank" href="https://thestack.com/cloud/2016/05/04/discoverfriends-wifi-facebook/">Coverage:TheStack</a></button>
-                            <p></p>
-                            <div id="discoverfriends-abs" class="collapse">
-                               This paper presents a secure communication application called DiscoverFriends. Its purpose is to securely communicate to a group of online friends while bypassing their respective social networking servers under a mobile ad hoc network environment. DiscoverFriends leverages Bloom filters and a hybrid encryption technique with a self-organized public-key management scheme to securely identify friends and provide authentication. Additionally, DiscoverFriends enables anonymous location check-ins by utilizing a new cryptographic primitive called Function Secret Sharing. Finally, to the best of our knowledge, DiscoverFriends implements and evaluates the first Android multi-hop WiFi Direct protocol using IPv6.
-                            </div>
-                            <div id="discoverfriends-bib" class="collapse">
-                                @article {WCM:WCM2708,
-                                author = {Joy, Joshua and Chung, Eric and Yuan, Zengwen and Li, Jiayao and Zou, Leqi and Gerla, Mario},
-                                title = {DiscoverFriends: secure social network communication in mobile ad hoc networks},
-                                journal = {Wireless Communications and Mobile Computing},
-                                volume = {16},
-                                number = {11},
-                                issn = {1530-8677},
-                                url = {http://dx.doi.org/10.1002/wcm.2708},
-                                doi = {10.1002/wcm.2708},
-                                pages = {1401--1413},
-                                keywords = {mobile communication, ad hoc networks, social computing, security},
-                                year = {2016},
-                                note = {wcm.2708},
-                                }
-                            </div>
                         </td>
                     </tr>
                 </tbody>
@@ -396,7 +254,7 @@ __        __   _
         </div>
 
 
-        <h3>Theses</h3>
+        <h3>Thesis</h3>
 
         <div class="panel panel-default">
             <!--<div class="panel-body">-->
@@ -404,39 +262,20 @@ __        __   _
                 <tbody>
                     <tr>
                         <td>
-                            <span class="label label-primary">T2</span>
-                        </td>
-                        <td>
-                            <h4 class="list-group-item-heading">
-                                Demystifying Multi-Carrier Access in Google Project Fi
-                            </h4>
-                            <p class="author">
-                                <strong>Zengwen Yuan</strong><br>
-                                Written Qualifying Exam/M.S. thesis, UCLA Computer Science, 2016.<br>
-                            </p>
-                            <button type="button" class="btn btn-success btn-xs" data-target="#wqe-abs" data-toggle="collapse">Abstract</button>
-                            <!-- <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href=.>PDF</a></button> -->
-                            <div id="wqe-abs" class="collapse">
-                                Google Project Fi offers a new mobile Internet access paradigm to smartphones. It allows its users to select one out of multiple mobile carrier networks at any given time and location. Compared with the conventional, single-carrier access, this multi-carrier access may conceptually provide better coverage and superior data service. Despite its advantages, the current Project Fi design is unrevealed, thus making it difficult to fully understand its strengths and limitations. In this work, we decipher Project Fi's inter-carrier switching algorithm through nontrivial reverse engineering efforts. We further uncover several instances where Project Fi delivers unsatisfying performances, and conduct experiments over operational networks to validate them and quantify their impact.
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
                             <span class="label label-primary">T1</span>
                         </td>
                         <td>
                             <h4 class="list-group-item-heading">
-                                The Design and Implementation of an Academic Search System
+                                Energy Blockchain Technology for the Sale of Electricity Market
                             </h4>
                             <p class="author">
-                                <strong>Zengwen Yuan</strong><br>
-                                Bachelor's thesis, Shanghai Jiao Tong University, 2015.<br>
+                                <strong>Siqi Wang</strong><br>
+                                Bachelor's thesis, Shanghai Jiao Tong University, 2019.<br>
                             </p>
                             <button type="button" class="btn btn-success btn-xs" data-target="#bachelor-thesis-abs" data-toggle="collapse">Abstract</button>
                             <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="http://web.cs.ucla.edu/~zyuan/slides/zengwen-yuan-sjtu-bachelor-defense-zh_cn.pdf">Defense Slides (Chinese)</a></button>
                             <div id="bachelor-thesis-abs" class="collapse">
-                                The easy and efficient access to the up-to-date research frontiers and necessary academic resources is becoming increasingly important for researchers, as the number of the research papers published each year reaches an overwhelming multitude. Thus, the academic search system is valued. The topic-based academic search system can recommend papers for user’s queries and visualize the corresponding location of paper's topics in the relevant disciplines. Using the top-down approach and modular design principle, the system can be divided into the website part and the system core. The prototype website is built for evaluation purpose using Amaze UI, and the system core consists of the paper database module, the topic model module, the citation network analysis module and the search engine module. The paper database collects large sample of paper metadata through web crawler and public datasets; the topic model module uses LDA algorithm to analysis the latent topics of papers; the citation network module models and analyzes the citation relationship between papers, and uses PageRank algorithm to explore the topics of papers in terms of development status within discipline and contribution from other topics; the search engine module deploys the open-source search engine Apache Solr, and makes customization and optimization for topic-based query. The architecture of this system combines the semantic analysis with the network analysis, and taking both the macroscopic and the microscopic perspectives of the paper metadata into account, which makes academic search faster and more accurate.
+                                With the proposal of "three types, two networks" in the report of State Grid on NPC & CPPCC 2019, the concept of "ubiquitous power Internet of things" has brought new opportunities for distributed power trading. Block chain technology, with its characteristics of information symmetry, security, transparency and trustworthiness, is of great significance to the construction of platform-based and sharing-based enterprises in the aspects of multi-party balance and information sharing. It overcomes the shortcomings of expandability, long transaction time and information symmetry in the traditional centralized power trading mode. To this end, this paper designs a transaction-driven, decentralized and autonomous power management mechanism in the sales park, implements a blockchain-based power trading model on Hyperledger Fabric, deploys corresponding smart contracts, and eventually establishes the blockchain-based decentralization technology for distribution network. We discuss the double auction and P2P trading mechanisms between users in the block, the power package agreement and access mechanism between power sales companies and users. Smart contract test on Hyperledger Fabric shows that the model built in this paper can realize the distributed energy transaction in the sales park and visualize the management and transaction process on webpage. The code of smart contract is interpreted in detail. The digitalized and decentralized mechanism for alliance chain assets is introduced into the park power management system to create an open and transparent power transaction market, which comprehensively improves trade efficiency and the overall benefit of traders.
                             </div>
                         </td>
                     </tr>
