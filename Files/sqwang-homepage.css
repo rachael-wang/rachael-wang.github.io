@@ -11,6 +11,10 @@ dl {
     font-size: 14pt;
 }
 
+dt{
+    margin-left:0;
+}
+
 p {
     font-size: 14pt;
 }
@@ -103,7 +107,7 @@ body > .container {
     padding: 60px 15px 0;
 }
 .container .text-muted {
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 
 .footer > .container {

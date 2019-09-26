@@ -181,7 +181,7 @@ __        __   _
                         <button type="button" class="btn btn-success btn-xs" data-target="#ubicomp19-abs" data-toggle="collapse">Abstract</button>
                         <button type="button" class="btn btn-info btn-xs" data-target="#ubicomp19-bib" data-toggle="collapse">Bib</button>
                         <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="./documents/ubicomp19-fabric.pdf">PDF</a></button>
-                        <p></p>
+                        <!-- <p></p> -->
                         <div id="ubicomp19-abs" class="collapse">
                             Accurate and continuous monitoring of joint rotational motion is crucial for a wide range of applications such as physical
                             rehabilitation and motion training. Existing motion capture systems, however, either need instrumentation
@@ -231,7 +231,6 @@ __        __   _
                                 Anonymous author(s)<br>
                                 ACM Transactions on Graphics (TOG), 2019<br>
                             </p>
-                            <p></p>
                         </td>
                     </tr>
                 </tbody>
@@ -271,39 +270,50 @@ __        __   _
         <hr size="1" color="#800000">
         <h2><b><a id="awards">Research</a></b></h2>
 
-        <div class="panel panel-default"></div>
-            <li class="list-group-item">
-                <div class="row vert-offset-top-1 vert-offset-bottom-1">
-                    <div class="col-md-4">
-                        <img src="./img/omnigrid.png" class="img-thumbnail center-block" style="max-width:90%">
-                    </div>
-                    <div class="col-md-75">
-                        <p><b>OmniGrid – A New Grid Structure for Anisotropic Fluid</b><br>
-                        Dartmouth College & SJTU, advised by <a href="http://www.dartmouth.edu/~boolzhu/" target="_blank">Bo Zhu</a> 
-                        and <a href="http://www.se.sjtu.edu.cn/teacher/teacherdetail.aspx?id=6" target="_blank">Xubo Yang</a><br>
-                        <p><small>The primary challenge we are tackling is to devise a novel grid structure named OmniGrid that can capture and simulate complex anisotropic flow features. As we know, how to capture the strong flux exhibited in non-axis-aliened directions has long been a challenge in the area of fluid simulation. The key idea we develop in this approach is to overlap tilted cells co-located with grid nodes adaptively and dynamically. I built up our data structure in 2D and 3D including interpolation functions, grid implementation and advection-projection solvers. Further, I reconstructed our solver with a matrix-free-style preconditioned conjugate gradient (PCG) algorithm. Recently, I am implementing Level Set Method for dynamic implicit surfaces and integrating Fast Marching Method (FMM) into our frame for the demo of 3D water.</small></p>
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <div class="row vert-offset-top-1 vert-offset-bottom-1">
-                    <div class="col-md-4">
-                        <img src="./img/fabric.png" class="img-thumbnail center-block" style="max-width:90%">
-                    </div>
-                    <div class="col-md-75">
-                        <p><b>Reconstructing Human Joint Motion with Computational Fabrics</b><br>
-                        Dartmouth College, advised by <a href="https://home.cs.dartmouth.edu/~xia/" target="_blank">Xia Zhou</a> 
-                        <p><small>This work studies the use of everyday fabrics as a flexible and soft sensing medium to monitor joint angular motion accurately and reliably. Specifically we focus on the primary use of conductive stretchable fabrics to sense the skin deformation during joint motion and infer the joint rotational angle. We tackle challenges of fabric sensing originated by the inherent properties of elastic materials by leveraging two types of sensing fabric and characterizing their properties based on models in material science. We apply models from bio-mechanics to infer joint angles and propose the use of dual strain sensing to enhance sensing robustness against user diversity and fabric position offsets. We fabricate prototypes using off-the-shelf fabrics and micro-controller. Experiments with ten participants show 9.69◦ mean angular error in tracking joint angle and its sensing robustness across various users and activities.</small></p>
-                    </div>
-                </div>
-            </li>
+        <!-- <li class="list-group-item"> -->
+        <div class="panel panel-default">
+        <!-- <div class="panel-body"> -->
+            <table class="table table-hover">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row vert-offset-top-1 vert-offset-bottom-1">
+                                <div class="col-md-4">
+                                    <img src="./img/smoke.jpg" class="img-thumbnail center-block" style="max-width:90%">
+                                </div>
+                                <div class="col-md-75">
+                                    <p><b>OmniGrid – A New Grid Structure for Anisotropic Fluid</b><br>
+                                    <small>College & SJTU, advised by <a href="http://www.dartmouth.edu/~boolzhu/" target="_blank">Bo Zhu</a>  
+                                    and <a href="http://www.se.sjtu.edu.cn/teacher/teacherdetail.aspx?id=6" target="_blank">Xubo Yang</a></small><br>
+                                    <p style="text-align:justify; max-width:98%"><small>The primary challenge we are tackling is to devise a novel grid structure named OmniGrid that can capture and simulate complex anisotropic flow features. As we know, how to capture the strong flux exhibited in non-axis-aliened directions has long been a challenge in the area of fluid simulation. The key idea we develop in this approach is to overlap tilted cells co-located with grid nodes adaptively and dynamically. I built up our data structure in 2D and 3D including interpolation functions, grid implementation and advection-projection solvers. Further, I reconstructed our solver with a matrix-free-style preconditioned conjugate gradient (PCG) algorithm. Recently, I am implementing Level Set Method for dynamic implicit surfaces and integrating Fast Marching Method (FMM) into our frame for the demo of 3D water.</small></p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="row vert-offset-top-1 vert-offset-bottom-1">
+                                <div class="col-md-4">
+                                    <img src="./img/fabric.png" class="img-thumbnail center-block" style="max-width:90%">
+                                </div>
+                                <div class="col-md-75">
+                                    <p><b>Reconstructing Human Joint Motion with Computational Fabrics</b><br>
+                                    <small>Dartmouth College, advised by <a href="https://home.cs.dartmouth.edu/~xia/" target="_blank">Xia Zhou</a></small> 
+                                    <p style="text-align:justify; max-width:98%"><small>This work studies the use of everyday fabrics as a flexible and soft sensing medium to monitor joint angular motion accurately and reliably. Specifically we focus on the primary use of conductive stretchable fabrics to sense the skin deformation during joint motion and infer the joint rotational angle. We tackle challenges of fabric sensing originated by the inherent properties of elastic materials by leveraging two types of sensing fabric and characterizing their properties based on models in material science. We apply models from bio-mechanics to infer joint angles and propose the use of dual strain sensing to enhance sensing robustness against user diversity and fabric position offsets. We fabricate prototypes using off-the-shelf fabrics and micro-controller. Experiments with ten participants show 9.69& mean angular error in tracking joint angle and its sensing robustness across various users and activities.</small></p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        <!-- </div> -->
         </div>
 
 
         <hr size="1" color="#800000">
         <h2><b><a id="awards">Awards</a></b></h2>
         <dl class="dl-horizontal">
-            <dt>08/2019</dt>
+            <dt>08 / 2019</dt>
             <dd>
                 New York University MacCracken Fellowship
             </dd>          
@@ -376,7 +386,7 @@ __        __   _
 
 <footer class="footer">
     <div class="container">
-        <p class="text-muted"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="./img/88x31.png"></a> © Siqi Wang — <script>var d = new Date(); document.write(d.getFullYear())</script></p>
+        <p class="text-muted"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="./img/88x31.png"></a> © Siqi Wang <script>var d = new Date(); document.write(d.getFullYear())</script></p>
 
         <!-- PLEASE KEEP THIS LICENSE -->
         <!-- Your use of the template of this website means that you agree to this license. -->
