@@ -42,8 +42,10 @@ a {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background-color: papayawhip
+    background-color: papayawhip;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
+
 a.button:visited
 {
     color:inherit;
@@ -134,6 +136,7 @@ body > .container {
 
 code {
     font-size: 80%;
+    /* font-family: Comic Sans MS, Comic Sans, cursive; */
 }
 
 .starter-template {
