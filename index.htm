@@ -118,7 +118,7 @@ __        __   _
 
         <hr size="1" color="#800000">
         <div id="about">
-            <p class="lead">I'm a Computer Science Ph.D. student at Courant Institute of Mathematical Sciences 
+            <p style="text-align:justify; max-width:97%">I'm a Computer Science Ph.D. student at Courant Institute of Mathematical Sciences 
             of <a target="_blank" href="https://cs.nyu.edu/home/index.html">New York University</a> 
             where I joined <a target="_blank" href="https://cims.nyu.edu/gcl/index.html">Geometric Computing Lab</a> 
             and started to work with professor <a target="_blank" href="https://cims.nyu.edu/gcl/denis.html">Denis Zorin</a>
@@ -126,7 +126,7 @@ __        __   _
             Prior to NYU, I got my Bachelor's degree at <a target="_blank" href="http://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a>
             and worked at <a target="_blank" href="http://dalab.se.sjtu.edu.cn/www/home/">DALab (Digital ART Laboratory)</a> of SJTU.</p>
 
-            <p class="lead">My research interests are Computer Graphics, Geometry Processing and Physics-based Simulation. 
+            <p style="text-align:justify; max-width:97%">My research interests are Computer Graphics, Geometry Processing and Physics-based Simulation. 
             Here is my <a target="_blank" href="./documents/CV_SIQI.pdf">CV</a> 
             and <a href="https://scholar.google.com/citations?user=mC4US5IAAAAJ">Google Scholar profile</a>.</p>
         </div>
@@ -136,12 +136,19 @@ __        __   _
         <hr size="2" color="#800000">
         <h2><b><a id="news">What's New</a></b></h2>
 
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+        <div class="col-xs-2 col-md-2"><p align="center"><strong>&#160;09 / 2019</strong></p></div>
+        <div class="col-xs-18 col-md-19"><p>My homepage is built today!</p></div>
+        </div>
+      
+
         
-        <dl class="dl-horizontal">
-            <ul style="list-style:none; margin:0px; padding:0px;">
-                <dt>09/2019</dt>
-                <dd>My homepage is built today!
-            </ul>
+        <!-- <dl class="dl-horizontal"> -->
+            <!-- <ul style="list-style:none; margin:0px; padding:0px;"> --> 
+            <!-- <dt>09 / 2019</dt> -->
+            <!-- <dd>My homepage is built today!</dd>                -->
+            <!-- </ul> -->
 
             <div align="right">
                 <button type="button" class="btn btn-success btn-xs" data-target="#old-news" data-toggle="collapse">Older news</button>
@@ -181,7 +188,7 @@ __        __   _
                         <button type="button" class="btn btn-success btn-xs" data-target="#ubicomp19-abs" data-toggle="collapse">Abstract</button>
                         <button type="button" class="btn btn-info btn-xs" data-target="#ubicomp19-bib" data-toggle="collapse">Bib</button>
                         <button type="button" class="btn btn-primary btn-xs"><a class="conf" target="_blank" href="./documents/ubicomp19-fabric.pdf">PDF</a></button>
-                        <!-- <p></p> -->
+                        <p></p>
                         <div id="ubicomp19-abs" class="collapse">
                             Accurate and continuous monitoring of joint rotational motion is crucial for a wide range of applications such as physical
                             rehabilitation and motion training. Existing motion capture systems, however, either need instrumentation
@@ -192,7 +199,7 @@ __        __   _
                             by the inherent properties of elastic materials by leveraging two types of sensing fabric and characterizing their properties
                             based on models in material science. We apply models from bio-mechanics to infer joint angles and propose the use of dual
                             strain sensing to enhance sensing robustness against user diversity and fabric position offsets. We fabricate prototypes using
-                            off-the-shelf fabrics and micro-controller. Experiments with ten participants show 9.69◦ median angular error in tracking
+                            off-the-shelf fabrics and micro-controller. Experiments with ten participants show 9.69&#176; median angular error in tracking
                             joint angle and its sensing robustness across various users and activities.
                         </div>
                         <div id="ubicomp19-bib" class="collapse">
@@ -226,6 +233,7 @@ __        __   _
                         <td>
                             <h4 class="list-group-item-heading">
                                 A New Grid Structure for Adaptive and Anisotropic Fluid Simulation
+                                <span class="badge"><a class="conf" target="_blank" href="./documents/ubicomp19-fabric.pdf">TOG '19</a></span>
                             </h4>
                             <p class="author">
                                 Anonymous author(s)<br>
@@ -255,12 +263,13 @@ __        __   _
                             <p class="author">
                                 <strong>Siqi Wang</strong><br>
                                 Bachelor's thesis, Shanghai Jiao Tong University, 2019.<br>
-                            </p>
+                            </p>                           
                             <button type="button" class="btn btn-success btn-xs" data-target="#bachelor-thesis-abs" data-toggle="collapse">Abstract</button>
                             <button type="button" class="btn btn-danger btn-xs"><a class="conf" target="_blank" href="./documents/bachelor-slides.pdf">Defense Slides (Chinese)</a></button>
                             <div id="bachelor-thesis-abs" class="collapse">
                                 With the proposal of "three types, two networks" in the report of State Grid on NPC &amp CPPCC 2019, the concept of "ubiquitous power Internet of things" has brought new opportunities for distributed power trading. Block chain technology, with its characteristics of information symmetry, security, transparency and trustworthiness, is of great significance to the construction of platform-based and sharing-based enterprises in the aspects of multi-party balance and information sharing. It overcomes the shortcomings of expandability, long transaction time and information symmetry in the traditional centralized power trading mode. To this end, this paper designs a transaction-driven, decentralized and autonomous power management mechanism in the sales park, implements a blockchain-based power trading model on Hyperledger Fabric, deploys corresponding smart contracts, and eventually establishes the blockchain-based decentralization technology for distribution network. We discuss the double auction and P2P trading mechanisms between users in the block, the power package agreement and access mechanism between power sales companies and users. Smart contract test on Hyperledger Fabric shows that the model built in this paper can realize the distributed energy transaction in the sales park and visualize the management and transaction process on webpage. The code of smart contract is interpreted in detail. The digitalized and decentralized mechanism for alliance chain assets is introduced into the park power management system to create an open and transparent power transaction market, which comprehensively improves trade efficiency and the overall benefit of traders.
                             </div>
+                            <p></p>
                         </td>
                     </tr>
                 </tbody>
@@ -277,6 +286,7 @@ __        __   _
                 <tbody>
                     <tr>
                         <td>
+                            <p></p>
                             <div class="row vert-offset-top-1 vert-offset-bottom-1">
                                 <div class="col-md-4">
                                     <img src="./img/smoke.jpg" class="img-thumbnail center-block" style="max-width:90%">
@@ -285,13 +295,14 @@ __        __   _
                                     <p><b>OmniGrid – A New Grid Structure for Anisotropic Fluid</b><br>
                                     <small>College & SJTU, advised by <a href="http://www.dartmouth.edu/~boolzhu/" target="_blank">Bo Zhu</a>  
                                     and <a href="http://www.se.sjtu.edu.cn/teacher/teacherdetail.aspx?id=6" target="_blank">Xubo Yang</a></small><br>
-                                    <p style="text-align:justify; max-width:98%"><small>The primary challenge we are tackling is to devise a novel grid structure named OmniGrid that can capture and simulate complex anisotropic flow features. As we know, how to capture the strong flux exhibited in non-axis-aliened directions has long been a challenge in the area of fluid simulation. The key idea we develop in this approach is to overlap tilted cells co-located with grid nodes adaptively and dynamically. I built up our data structure in 2D and 3D including interpolation functions, grid implementation and advection-projection solvers. Further, I reconstructed our solver with a matrix-free-style preconditioned conjugate gradient (PCG) algorithm. Recently, I am implementing Level Set Method for dynamic implicit surfaces and integrating Fast Marching Method (FMM) into our frame for the demo of 3D water.</small></p>
+                                    <p style="text-align:justify; max-width:97%"><small>The primary challenge we are tackling is to devise a novel grid structure named OmniGrid that can capture and simulate complex anisotropic flow features. As we know, how to capture the strong flux exhibited in non-axis-aliened directions has long been a challenge in the area of fluid simulation. The key idea we develop in this approach is to overlap tilted cells co-located with grid nodes adaptively and dynamically. I built up our data structure in 2D and 3D including interpolation functions, grid implementation and advection-projection solvers. Further, I reconstructed our solver with a matrix-free-style preconditioned conjugate gradient (PCG) algorithm. Recently, I am implementing Level Set Method for dynamic implicit surfaces and integrating Fast Marching Method (FMM) into our frame for the demo of 3D water.</small></p>
                                 </div>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>
+                            <p></p>
                             <div class="row vert-offset-top-1 vert-offset-bottom-1">
                                 <div class="col-md-4">
                                     <img src="./img/fabric.png" class="img-thumbnail center-block" style="max-width:90%">
@@ -299,7 +310,7 @@ __        __   _
                                 <div class="col-md-75">
                                     <p><b>Reconstructing Human Joint Motion with Computational Fabrics</b><br>
                                     <small>Dartmouth College, advised by <a href="https://home.cs.dartmouth.edu/~xia/" target="_blank">Xia Zhou</a></small> 
-                                    <p style="text-align:justify; max-width:98%"><small>This work studies the use of everyday fabrics as a flexible and soft sensing medium to monitor joint angular motion accurately and reliably. Specifically we focus on the primary use of conductive stretchable fabrics to sense the skin deformation during joint motion and infer the joint rotational angle. We tackle challenges of fabric sensing originated by the inherent properties of elastic materials by leveraging two types of sensing fabric and characterizing their properties based on models in material science. We apply models from bio-mechanics to infer joint angles and propose the use of dual strain sensing to enhance sensing robustness against user diversity and fabric position offsets. We fabricate prototypes using off-the-shelf fabrics and micro-controller. Experiments with ten participants show 9.69& mean angular error in tracking joint angle and its sensing robustness across various users and activities.</small></p>
+                                    <p style="text-align:justify; max-width:97%"><small>This work studies the use of everyday fabrics as a flexible and soft sensing medium to monitor joint angular motion accurately and reliably. Specifically we focus on the primary use of conductive stretchable fabrics to sense the skin deformation during joint motion and infer the joint rotational angle. We tackle challenges of fabric sensing originated by the inherent properties of elastic materials by leveraging two types of sensing fabric and characterizing their properties based on models in material science. We apply models from bio-mechanics to infer joint angles and propose the use of dual strain sensing to enhance sensing robustness against user diversity and fabric position offsets. We fabricate prototypes using off-the-shelf fabrics and micro-controller. Experiments with ten participants show 9.69&#176; mean angular error in tracking joint angle and its sensing robustness across various users and activities.</small></p>
                                 </div>
                             </div>
                         </td>
@@ -312,38 +323,28 @@ __        __   _
 
         <hr size="1" color="#800000">
         <h2><b><a id="awards">Awards</a></b></h2>
-        <dl class="dl-horizontal">
-            <dt>08 / 2019</dt>
-            <dd>
-                New York University MacCracken Fellowship
-            </dd>          
-            <dt>05/2019</dt>
-            <dd>
-                Outstanding Graduates of Shanghai
-            </dd>
-            <dt>12/2018</dt>
-            <dd>
-                Hongyi Scholarship (for excellent overseas researchers)
-            </dd>
-            <dt>04/2018</dt>
-            <dd>
-                First-class Scholarship of Lee Fushou Fund
-            </dd>
-            <dt>10/2017</dt>
-            <dd>
-                Scholarship of the Temasek Foundation International Leadership Enrichment and Regional Networking Programme (TFI LEaRN)
-            </dd>
-            
-            <dt>10/2016</dt>
-            <dd>
-                Award for Outstanding Student Cadres, SJTU
-            </dd>
-            <dt>09/2014</dt>
-            <dd>
+        <div class="row">
+            <div class="col-xs-2 col-md-2"><p align="center">
+                <strong>
+                    08 / 2019<br>
+                    05 / 2019<br>
+                    12 / 2018<br>
+                    04 / 2018<br>
+                    10 / 2017<br><br>
+                    10 / 2016<br>
+                    09 / 2014<br>
+                </strong></p>
+            </div>
+            <div class="col-xs-18 col-md-15"><p>
+                New York University MacCracken Fellowship<br>
+                Outstanding Graduates of Shanghai<br>
+                Hongyi Scholarship (for excellent overseas researchers)<br>
+                First-class Scholarship of Lee Fushou Fund<br>
+                Scholarship of the Temasek Foundation International Leadership Enrichment and Regional Networking Programme (TFI LEaRN)<br>
+                Award for Outstanding Student Cadres<br>
                 First Place in High School Students Mathematics Contest in China (provincial level)
-            </dd>
-        </dl>
-
+            </p></div>
+        </div>
 
         <hr size="1" color="#800000">
         <h2><b><a name="misc">Misc</a></b></h2>
