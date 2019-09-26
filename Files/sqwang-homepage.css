@@ -107,12 +107,12 @@ a.button:visited
 }
 
 .footer {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 60px;
-    background-color: #f5f5f5;
+    height: 50px;
+    /* background-color: #f0f0f0; */
 }
 
 
@@ -124,7 +124,7 @@ body > .container {
     padding: 60px 15px 0;
 }
 .container .text-muted {
-    margin: 20px 0px;
+    margin: 7px 7px;
 }
 
 .footer > .container {
