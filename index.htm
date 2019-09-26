@@ -87,14 +87,13 @@ __        __   _
 
 <!-- Begin page content -->
 <div class="container">
-
     <!--Body content-->
     <div class="starter-template">
 
         <div class="row row-offcanvas row-offcanvas-right">
 
             <div class="col-xs-6 col-sm-3"><img alt="Xuanwu Lake, Nanjing, 2019" src="./img/sqwang-nanjing.jpg" height="240px" class="img-rounded"><br>
-            Lab profile picture: <a target="_blank" href="./img/sqwang-taipei.jpg">at Gold Falls, Taipei</a>.
+            Lab profile pic: <a target="_blank" href="./img/sqwang-taipei.jpg">at Gold Falls, Taipei</a>.
             </div>
 
             <div class="col-xs-12 col-sm-8">
@@ -295,7 +294,8 @@ __        __   _
                                     <p><b>OmniGrid – A New Grid Structure for Anisotropic Fluid</b><br>
                                     <small>Dartmouth College & SJTU, advised by <a href="http://www.dartmouth.edu/~boolzhu/" target="_blank">Bo Zhu</a>  
                                     and <a href="http://www.se.sjtu.edu.cn/teacher/teacherdetail.aspx?id=6" target="_blank">Xubo Yang</a></small><br>
-                                    <p style="text-align:justify; max-width:97%"><small>The primary challenge we are tackling is to devise a novel grid structure named OmniGrid that can capture and simulate complex anisotropic flow features. As we know, how to capture the strong flux exhibited in non-axis-aliened directions has long been a challenge in the area of fluid simulation. The key idea we develop in this approach is to overlap tilted cells co-located with grid nodes adaptively and dynamically. I built up our data structure in 2D and 3D including interpolation functions, grid implementation and advection-projection solvers. Further, I reconstructed our solver with a matrix-free-style preconditioned conjugate gradient (PCG) algorithm. Recently, I am implementing Level Set Method for dynamic implicit surfaces and integrating Fast Marching Method (FMM) into our frame for the demo of 3D water.</small></p>
+                                    <p style="text-align:justify; max-width:97%"><small>The primary challenge we are tackling is to devise a novel grid structure named OmniGrid that can capture and simulate complex anisotropic flow features. As we know, how to capture the strong flux exhibited in non-axis-aliened directions has long been a challenge in the area of fluid simulation. The key idea we develop in this approach is to overlap tilted cells co-located with grid nodes adaptively and dynamically. Our grid structure preserves almost all the merits of a uniform Cartersian grid, including the cache-coherent data layout, the easiness for parallelization, and the existence of high-performance numerical solvers.
+                                            Also, this grid can be seamlessly integrated into other adaptive grid structures.</small></p>
                                 </div>
                             </div>
                         </td>
@@ -349,9 +349,10 @@ __        __   _
         <hr size="1" color="#800000">
         <h2><b><a name="misc">Misc</a></b></h2>
 
-        <p>I love photography and traveling. I own a Nikon D750 body. My current lens collection includes a Rokinon 14mm f/2.8, a Sigma 35mm f/1.4 Art, a Nikon 50mm f/1.4 D, a Nikon 85mm f/1.8 D, a Tokina AT-X 100mm f/2.8 macro, and a Nikon 18-35mm f/3.5-4.5 zoom. Read <a target="_blank" href="http://zwyuan.github.io/2017/12/31/my-memories-of-the-year-2017-in-photos/">my pick of photos in 2017</a> or see more of the photos I took at <a target="_blank" href="https://500px.com/zwyuan">my 500px photo gallery</a>, and images available for licensing on <a href="https://www.gettyimages.com/search/photographer?family=creative&amp;photographer=edward%20yuan&amp;sort=best">Getty Images</a>.</p>
-
-        <p>I am a big fan of classical music and I play the piano in my leisure time.</p>
+        <!-- <p>I love photography and traveling. I own a Nikon D750 body. My current lens collection includes a Rokinon 14mm f/2.8, a Sigma 35mm f/1.4 Art, a Nikon 50mm f/1.4 D, a Nikon 85mm f/1.8 D, a Tokina AT-X 100mm f/2.8 macro, and a Nikon 18-35mm f/3.5-4.5 zoom. Read <a target="_blank" href="http://zwyuan.github.io/2017/12/31/my-memories-of-the-year-2017-in-photos/">my pick of photos in 2017</a> or see more of the photos I took at <a target="_blank" href="https://500px.com/zwyuan">my 500px photo gallery</a>, and images available for licensing on <a href="https://www.gettyimages.com/search/photographer?family=creative&amp;photographer=edward%20yuan&amp;sort=best">Getty Images</a>.</p> -->
+        <p>I am a fan of classical music and play the piano in my leisure time.
+            I'm also well-versed in Cucurbit Flute, a Chinese musical instrument.
+            I learned Chinese folk dance for many years but it's been quite a long time since I last danced.</p>
         <p id="phd-day-count">It's been 1470 days since I started Ph.D.!<br>
 
         <script>
@@ -380,7 +381,6 @@ __        __   _
                 <img src="https://www.easycounter.com/counter.php?siqi9794"
                 border="0" alt="HTML Hit Counters"></a> th vistor of my homepage.
         </p>
-
     </div>
 </div><!--/.container-->
 
@@ -395,7 +395,7 @@ __        __   _
                     var lastModTime = new Date(document.lastModified);
                     document.write("Last Modified: "+lastModTime)
                 </script><br>
-                This work is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a> License and modified from <a href="http://web.cs.ucla.edu/~zyuan/">Zengwen Yuan Homepage</a>.                
+                This work is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a> License and modified from <a href="http://web.cs.ucla.edu/~zyuan/">Zengwen Yuan's Homepage</a>.                
             </small>
             <!-- <br> -->
             
