@@ -1,2 +1,2 @@
-# rachaelwang.github.io
+# rachael-wang.github.io
 Siqi Wang's Homepage 
